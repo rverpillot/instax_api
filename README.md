@@ -28,13 +28,13 @@ optional arguments:
   -i PIN, --pin PIN     The pin code to use, default: 1111.
   -v {1,2,3}, --version {1,2,3}
                         The version of Instax Printer to use (1, 2 or 3).
-                        Default is 2 (SP-2).                       
+                        Default is 3 (SP-3).                       
 ```
 
 ### Examples:
 
- - Printing a Photo to an SP-2 printer: `instax-print myPhoto.jpg`
- - Printing a Photo to an SP-3 printer: `instax-print myPhoto.jpg -v 3`
+ - Printing a Photo to an SP-2 printer: `instax-print myPhoto.jpg -v 2`
+ - Printing a Photo to an SP-3 printer: `instax-print myPhoto.jpg`
  - Printing a Photo to a printer with a pin that is not the default (1111) `instax-print myPhoto.jpg -i 1234`
 
 ### Hints and tips:
